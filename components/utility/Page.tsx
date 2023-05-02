@@ -26,16 +26,16 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
           <meta name="description" content={desc} />
 
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://marcoscasas.netlify.app/" />
+          <meta property="og:url" content="https://casas-dev.netlify.app/" />
           <meta property="og:title" content={pageTitle} />
           <meta property="og:description" content={desc} />
-          <meta property="og:image" content="https://marcoscasas.netlify.app/static/misc/portada-alt.png" />
+          <meta property="og:image" content="https://ibb.co/WxsrnJh" />
 
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://marcoscasas.netlify.app/" />
+          <meta property="twitter:url" content="https://casas-dev.netlify.app/https://casas-dev.netlify.app/" />
           <meta property="twitter:title" content={pageTitle} />
           <meta property="twitter:description" content={desc} />
-          <meta property="twitter:image" content="https://marcoscasas.netlify.app/"></meta>
+          <meta property="twitter:image" content="https://casas-dev.netlify.app/"></meta>
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
           <script
             dangerouslySetInnerHTML={{
