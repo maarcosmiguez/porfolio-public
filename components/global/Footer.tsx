@@ -16,7 +16,7 @@ function Footer() {
                   return (
                     <div key={index} className="my-4">
                       {item.leavesWebsite ? (
-                        <a href={item.link} target="_blank" className="items-center flex">
+                        <a href={item.link} target="_blank" className="items-center flex hover:scale-105 transition-all ease cursor-pointer">
                           {item.icon && (
                             <span className="pr-2 -mb-1">
                               <Image src={item.icon} width={20} height={20} />

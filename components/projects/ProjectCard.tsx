@@ -16,18 +16,26 @@ function ProjectCard({ project }) {
           </a>
           <div className="space-x-2">
             {project.link && (
-              <a href={project.link} target="_blank" rel="noreferrer">
+              <a href={project.link} target="_blank" rel="noreferrer" className="cursor-pointer">
                 <Image src="/static/icons/external-link.svg" width={16} height={16} alt="Link Icon" />
               </a>
             )}
             {project.github && (
-              <a href={project.github} target="_blank" rel="noreferrer">
+              <a href={project.github} className="group cursor-pointer" target="_blank" rel="noreferrer">
                 <Image src="/static/icons/github.svg" width={16} height={16} alt="Github Icon" />
+                <span className="hidden group-hover:block absolute bg-gray-800 text-white px-2 py-1 rounded-md text-xs mt-2">Github</span>
               </a>
             )}
             {project.behance && (
-              <a href={project.behance} target="_blank" rel="noreferrer">
+              <a href={project.behance} className="group cursor-pointer" target="_blank" rel="noreferrer">
                 <Image src="/static/icons/behance.svg" width={16} height={16} alt="Behance Icon" />
+                <span className="hidden group-hover:block absolute bg-gray-800 text-white px-2 py-1 rounded-md text-xs mt-2">Behance</span>
+              </a>
+            )}
+            {project.id == 0 && (
+              <a href="https://www.instagram.com/reel/Cqs5IvrObKQ/" target="_blank" rel="noreferrer" className="group cursor-pointer">
+                <Image src="/static/icons/award.svg" className="text-white" width={20} height={20} alt="Award Icon" />
+                <span className="hidden group-hover:block absolute bg-gray-800 text-white px-2 py-1 rounded-md text-xs mt-2">La Roche Awards</span>
               </a>
             )}
           </div>

@@ -17,7 +17,7 @@ function Heading({ tag }: HeadingProps) {
       ) : (
         <h1 className="text-4xl sm:text-6xl inline-block w-auto mx-auto mb-8 relative">
           Proyectos
-          <img className="sqD w-10 -top-8 -right-8 absolute" src="/static/doodles/hero/marcoslogo.svg" style={{ animationDelay: "0.7s" }} />
+          <img className="sqD w-10 -top-10 -right-8 absolute" src="/static/doodles/hero/pop1.svg" style={{ animationDelay: "0.7s" }} />
         </h1>
       )}
       {!tag && <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">Estos proyectos fueron construidos con una diversidad de soluciones técnicas y con potentes interfases de usuario.</p>}

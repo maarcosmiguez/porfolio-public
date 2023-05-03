@@ -22,7 +22,7 @@ function Navbar({ currentPage }) {
       <ul className="flex items-center space-x-10">
         {routes.map((item, index) => {
           return (
-            <li key={index} className={`list-none text-white ${currentPage === item.title ? "opacity-100" : "opacity-40 hover:opacity-100 transition-opacity"}`}>
+            <li key={index} className={`list-none text-white ${currentPage === item.title ? "opacity-100" : "opacity-40 hover:opacity-100 transition-opacity hover:scale-105 transition-all ease"}`}>
               <Link href={item.path}>{item.title}</Link>
             </li>
           );

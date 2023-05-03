@@ -44,7 +44,7 @@ export const routes: Route[] = [
 export const footer: Footer = {
   columns: [
     {
-      title: "Pages",
+      title: "Páginas",
       links: [
         {
           name: "Home",
@@ -69,7 +69,7 @@ export const footer: Footer = {
       ],
     },
     {
-      title: "Social",
+      title: "Redes soociales",
       links: [
         {
           name: "GitHub",

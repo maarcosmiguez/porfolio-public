@@ -19,7 +19,7 @@ function Hero() {
           <img className="sqD left-[-35px] w-[150px] bottom-[-100px] sm:bottom-[-150px] sm:left-25" style={{ animationDelay: "0.9s" }} src="/static/doodles/hero/code.svg" />
         </h1>
         <ScrollLink activeClass="active" to="learnmore" spy={true} offset={-30} smooth={true} duration={500}>
-          <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">Ver proyectos</div>
+          <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">Ver proyectos</div>
         </ScrollLink>
       </div>
     </>
