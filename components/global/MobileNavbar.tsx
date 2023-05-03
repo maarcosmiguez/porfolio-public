@@ -32,7 +32,7 @@ export default function MobileNavbar() {
       <div className={`w-full justify-between flex items-center ${isMenuRendered && "bg-bg"} p-5`} style={{ zIndex: 101 }}>
         <li className="list-none font-bold text-lg">
           <Link href="/">
-            <img className="mr-3 text-white" src="\static\doodles\hero\marcoslogo.svg" width="160" />
+            <img className="mr-3 text-white" src="/static/logos/logo_no_text.svg" width="60" />
           </Link>
         </li>
         <button className="burger visible md:hidden" aria-label="Toggle menu" type="button" onClick={toggleMenu}>

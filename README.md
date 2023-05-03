@@ -1,4 +1,4 @@
-# **[Porfolio Marcos Casas](https://github.com/maarcoscasas/porfolio)**
+# **[Porfolio Marcos Casas](https://github.com/maarcoscasas/porfolio-public)**
 
 Creado con **React, NextJS, and TailwindCSS**!
 

@@ -65,7 +65,7 @@ function Footer() {
       <div className="mt-8 text-center sm:text-right sm:-mt-12">
         <a
           className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50 hover:transform-gpu hover:scale-105 ease transition-all"
-          href="https://github.com/maarcoscasas/porfolio"
+          href="https://github.com/maarcoscasas/porfolio-public"
           target="_blank"
           rel="nooreferrer"
         >

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Designs() {
   return (
-    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 items-start">
+    <div className="m-10 md:m-5 grid grid-cols-1 gap-8 md:grid-cols-2 items-start">
       {designs.map((item, index) => {
         return (
           <div className="w-full relative hover:scale-105 transition-all ease-in-out" key={index}>

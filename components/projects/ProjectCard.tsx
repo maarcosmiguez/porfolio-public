@@ -35,7 +35,7 @@ function ProjectCard({ project }) {
             {project.id == 0 && (
               <a href="https://www.instagram.com/reel/Cqs5IvrObKQ/" target="_blank" rel="noreferrer" className="group cursor-pointer">
                 <Image src="/static/icons/award.svg" className="text-white" width={20} height={20} alt="Award Icon" />
-                <span className="hidden group-hover:block absolute bg-gray-800 text-white px-2 py-1 rounded-md text-xs mt-2">La Roche Awards</span>
+                <span className="hidden group-hover:block absolute bg-gray-800 text-white px-2 py-1 rounded-md text-xs mt-2">Ganador premio Research Grants 2023</span>
               </a>
             )}
           </div>

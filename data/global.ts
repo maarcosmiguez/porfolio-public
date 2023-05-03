@@ -44,7 +44,7 @@ export const routes: Route[] = [
 export const footer: Footer = {
   columns: [
     {
-      title: "Páginas",
+      title: "Secciones",
       links: [
         {
           name: "Home",
