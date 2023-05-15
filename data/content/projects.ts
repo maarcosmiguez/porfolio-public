@@ -19,7 +19,7 @@ const projects: Project[] = [
     link: "https://maarcoscasas.github.io/app-clima/",
     github: "https://github.com/maarcoscasas/app-clima",
     behance: "https://www.behance.net/gallery/145170545/Cuando-acampar-App-%28incluye-codigo%29",
-    tags: ["HTML", "CSS", "Javascript", "Boostrap", "API"],
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "API"],
   },
   {
     id: 2,
@@ -27,17 +27,17 @@ const projects: Project[] = [
     desc: "Conversor de moneda corriente a criptomoneda. Sitio en mantenimiento por modificación de términos de uso de la API.",
     img: "/static/projects/cripto.png",
     link: "https://maarcoscasas.github.io/cripto-converter/",
-    tags: ["Javascript", "Boostrap", "API"],
+    tags: ["Javascript", "Bootstrap", "API"],
   },
   {
     id: 3,
     title: "Pilsen store",
-    desc: "Webapp para dispositivos móviles con los principales productos de la store de Pislen en Mercado Libre.",
+    desc: "Webapp para dispositivos móviles con los principales productos de la store de Pilsen en Mercado Libre.",
     img: "/static/projects/pilsen.png",
     link: "https://maarcoscasas.github.io/pilsen-store/",
     github: "https://github.com/maarcoscasas/pilsen-store",
     behance: "https://www.behance.net/gallery/148971737/Pilsen-store-app-mobile-%28code-design%29",
-    tags: ["Ionic", "Capacitor", "Boostrap", "API"],
+    tags: ["Ionic", "Capacitor", "Bootstrap", "API"],
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const projects: Project[] = [
     behance: "https://www.behance.net/gallery/168535455/Free-games-app",
     github: "https://github.com/maarcoscasas/games-app",
     link: "https://maarcoscasas.github.io/games-app/",
-    tags: ["Node", "Javascript", "Boostrap", "MongoDB"],
+    tags: ["Node", "Javascript", "Bootstrap", "MongoDB"],
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const projects: Project[] = [
     img: "/static/projects/marvel-cover.png",
     github: "https://github.com/maarcoscasas/marvel",
     link: "https://github.com/maarcoscasas/marvel",
-    tags: ["React", "API", "Boostrap"],
+    tags: ["React", "API", "Bootstrap"],
   },
 ];
 
