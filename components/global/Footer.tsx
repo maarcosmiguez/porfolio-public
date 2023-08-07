@@ -56,8 +56,8 @@ function Footer() {
           </div>
           <div className="mt-2 text-xs ">
             Porfolio de{" "}
-            <a href="https://github.com/maarcoscasas" target="_blank" className="text-fun-gray-light font-medium">
-              Marcos Casas
+            <a href="https://github.com/maarcosmiguez" target="_blank" className="text-fun-gray-light font-medium">
+              Marcos Miguez
             </a>
           </div>
         </p>
@@ -65,7 +65,7 @@ function Footer() {
       <div className="mt-8 text-center sm:text-right sm:-mt-12">
         <a
           className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50 hover:transform-gpu hover:scale-105 ease transition-all"
-          href="https://github.com/maarcoscasas/porfolio-public"
+          href="https://github.com/maarcosmiguez/porfolio-public"
           target="_blank"
           rel="nooreferrer"
         >

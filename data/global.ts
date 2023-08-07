@@ -73,19 +73,19 @@ export const footer: Footer = {
       links: [
         {
           name: "GitHub",
-          link: "https://github.com/maarcoscasas",
+          link: "https://github.com/maarcosmiguez",
           icon: "/static/icons/github-f.svg",
           leavesWebsite: true,
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/marcos-c-5829369b/",
+          link: "https://www.linkedin.com/in/marcosmiguez/",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
         {
           name: "Behance",
-          link: "https://www.behance.net/marcoscasas",
+          link: "https://www.behance.net/marcosmiguez",
           icon: "/static/icons/behance-f.svg",
           leavesWebsite: true,
         },
@@ -99,8 +99,8 @@ export const footer: Footer = {
     },
   ],
   support: {
-    buymeacoffee: "maarcoscasas",
-    paypal: "maarcoscasas",
+    buymeacoffee: "marcosmiguez",
+    paypal: "marcosmiguez",
     message: "I appreciate your support very much! 💙",
   },
 };
