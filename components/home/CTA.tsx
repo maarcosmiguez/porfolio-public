@@ -7,7 +7,7 @@ function CTA() {
       <div className="pt-14 pb-40">
         <h2 className="text-3xl md:text-5xl sm:text-6xl font-bold mb-10">¿Te interesa trabajar juntos?</h2>
         <a
-          href="https://www.linkedin.com/in/marcos-c-5829369b/"
+          href="https://www.linkedin.com/in/marcosmiguez/"
           target="_blank"
           className="cursor-pointer font-bold whitespace-nowrap 
         mt-6 px-8 py-3 text-white border-2 rounded-full border-white hover:bg-fun-pink hover:border-fun-pink transition-colors"
